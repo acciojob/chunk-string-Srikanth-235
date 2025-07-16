@@ -2,8 +2,8 @@ function stringChop(str, size) {
   // your code here
 	let newarr=[];
 	for(let i=0;i<str.length;i++){
-		let substr=str.substr(i,size);
-		newarr[i]=substr;
+		let substr1=str.substr(i,size);
+		newarr[i]=substr1;
 	}
 	return newarr;
 }
